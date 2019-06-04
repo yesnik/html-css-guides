@@ -27,11 +27,19 @@ Use `<label>` tag for form inputs:
 If you don't need label according to design, hide it visually. But don't use `display: none`, 
 because it'll hide label from screen readers.
 
+## Use link as fallback
+
+If you have a login page on your site and want to use login popup, use link on button that opens popup. It'll allow users to login via login page if javascript is disabled in their browser.
+
+```html
+<a href="/login" class="button">Login</a>
+```
+
 ## Use ARIA attributes
 
 To make your page visible for screen readers use ARIA attributes (Accessible Rich Internet Applications).
 
-```
+```html
 <a href="https://facebook.com" aria-label="Facebook"></a>
 
 <button aria-label="Close popup window">X</button>
