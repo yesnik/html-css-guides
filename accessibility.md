@@ -10,6 +10,23 @@ Use tag `<button>` for buttons. Why? Reasons:
 
 See [codepen example](https://codepen.io/yesnik/pen/xNMvRK)
 
+## Labels
+
+Use `<label>` tag for form inputs:
+
+```html
+<label>
+  Car
+  <input type="text" name="car">
+</label>
+
+<label for="speed">Speed</label>
+<input id="speed" type="range" name="speed">
+```
+
+If you don't need label according to design, hide it visually. But don't use `display: none`, 
+because it'll hide label from screen readers.
+
 ## Use ARIA attributes
 
 To make your page visible for screen readers use ARIA attributes (Accessible Rich Internet Applications).
