@@ -114,6 +114,18 @@ li:last-child {
 }
 ```
 
+## `:not()`
+
+The `:not()` CSS pseudo-class represents elements that do not match a list of selectors. 
+Since it prevents specific items from being selected, it is known as *the negation pseudo-class*.
+
+```css
+li:not(:last-child)::after {
+  content: '|';
+  padding: 0 10px;
+}
+```
+
 ## `:nth-child()`
 
 The `:nth-child()` CSS pseudo-class matches elements based on the indexes of the elements in the child list of their parents. 
