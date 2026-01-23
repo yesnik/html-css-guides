@@ -37,6 +37,18 @@ Examples include: a forum post, a magazine or newspaper article, or a blog entry
 ## `<aside>`
 
 Holds content related to the content surrounding it. E.g.: related reading links, glossaries.
+Represents a portion of a document whose content is only indirectly related to the document's main content. Asides are frequently presented as sidebars or call-out boxes.
+
+```html
+<p>
+  Salamanders are a group of amphibians with a lizard-like appearance, including
+  short legs and a tail in both larval and adult forms.
+</p>
+
+<aside>
+  <p>The Rough-skinned Newt defends itself with a deadly neurotoxin.</p>
+</aside>
+```
 
 ## `<blockquote>` and `<cite>`
 
