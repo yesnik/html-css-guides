@@ -106,6 +106,24 @@ li:nth-child(5) {
 }
 ```
 
+## `::after`
+
+In CSS, `::after` creates a pseudo-element that is the last child of the selected element. 
+It is often used to add cosmetic content to an element with the content property. It is inline by default.
+
+```css
+a::after {
+  content: " (" attr(href) ")";
+}
+
+.broken-link::after {
+  content: url("/shared-assets/images/examples/warning.svg");
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+}
+```
+
 ## `::before`
 
 In CSS, `::before` creates a pseudo-element that is the first child of the selected element. 
