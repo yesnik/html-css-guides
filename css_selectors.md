@@ -143,3 +143,16 @@ h2::before {
 }
 ```
 
+## `::first-letter`
+
+The `::first-letter` CSS pseudo-element applies styles to the first letter of the first line of a block container, 
+but only when not preceded by other content (such as images or inline tables).
+
+```css
+p::first-letter {
+  initial-letter: 3;
+  font-weight: bold;
+  margin-right: 1rem;
+  color: brown;
+}
+```
