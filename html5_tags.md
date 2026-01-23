@@ -1,5 +1,25 @@
 # HTML5 tags
 
+## `<address>`
+
+The `<address>` HTML element indicates that the enclosed HTML provides contact information for a person or people, or for an organization.
+
+```html
+<address>
+  <a href="mailto:kenny@example.com">kenny@example.com</a><br />
+  <a href="tel:+54150001234">+5 (415) 000‑1234</a>
+</address>
+```
+
+## `<article>`
+
+A self-contained composition in a document that is independently distributable or reusable. 
+E.g. a forum post, a magazine article, blog entry.
+
+## `<aside>`
+
+Holds content related to the content surrounding it. E.g.: related reading links, glossaries.
+
 ## `<blockquote>` and `<cite>`
 
 The `<blockquote>` HTML element indicates that the enclosed text is an extended quotation. 
@@ -24,6 +44,38 @@ while a text representation of the source can be given using the `<cite>` elemen
 </div>
 ```
 
+## `<figure>` and  `<figcaption>`
+
+Used in conjunction with the `<figcaption>` element to mark up diagrams, illustrations, photos, and code listings, etc.
+
+```html
+<figure>
+  <img
+    src="/shared-assets/images/examples/elephant.jpg"
+    alt="Elephant at sunset" />
+  <figcaption>An elephant at sunset</figcaption>
+</figure>
+```
+
+## `<footer>`
+
+The `<footer>` HTML element represents a footer for its nearest ancestor sectioning content or sectioning root element.
+A `<footer>` typically contains information about the author of the section, copyright data or links to related documents.
+
+```html
+<article>
+  <h1>How to be a wizard</h1>
+  <ol>
+    <li>Grow a long, majestic beard.</li>
+    <li>Wear a tall, pointed hat.</li>
+    <li>Have I mentioned the beard?</li>
+  </ol>
+  <footer>
+    <p>© 2018 Gandalf</p>
+  </footer>
+</article>
+```
+
 ## `<header>`
 
 The `<header>` HTML element represents introductory content, typically a group of introductory or navigational aids. 
@@ -46,40 +98,6 @@ It may contain some heading elements but also a logo, a search form, an author n
 </article>
 ```
 
-## `<footer>`
-
-The `<footer>` HTML element represents a footer for its nearest ancestor sectioning content or sectioning root element.
-A `<footer>` typically contains information about the author of the section, copyright data or links to related documents.
-
-```html
-<article>
-  <h1>How to be a wizard</h1>
-  <ol>
-    <li>Grow a long, majestic beard.</li>
-    <li>Wear a tall, pointed hat.</li>
-    <li>Have I mentioned the beard?</li>
-  </ol>
-  <footer>
-    <p>© 2018 Gandalf</p>
-  </footer>
-</article>
-```
-
-## `<nav>`
-
-The `<nav>` HTML element represents a section of a page whose purpose is to provide navigation links,
-either within the current document or to other documents. Common examples of navigation sections are menus, tables of contents, and indexes.
-
-```html
-<nav class="crumbs">
-  <ol>
-    <li class="crumb"><a href="#">Bikes</a></li>
-    <li class="crumb"><a href="#">BMX</a></li>
-    <li class="crumb">Jump Bike 3000</li>
-  </ol>
-</nav>
-```
-
 ## `<main>`
 
 Holds content that is directly related to or expands upon the central topic of the page. 
@@ -99,6 +117,32 @@ Moreover, it helps screen readers and other assistive technologies understand wh
 </main>
 ```
 
+## `<mark>`
+
+The `<mark>` HTML element represents text which is marked or highlighted for reference or notation purposes due to the marked passage's relevance in the enclosing context.
+
+```html
+<p>
+  Several species of <mark>salamander</mark> inhabit the temperate rainforest of
+  the Pacific Northwest.
+</p>
+```
+
+## `<nav>`
+
+The `<nav>` HTML element represents a section of a page whose purpose is to provide navigation links,
+either within the current document or to other documents. Common examples of navigation sections are menus, tables of contents, and indexes.
+
+```html
+<nav class="crumbs">
+  <ol>
+    <li class="crumb"><a href="#">Bikes</a></li>
+    <li class="crumb"><a href="#">BMX</a></li>
+    <li class="crumb">Jump Bike 3000</li>
+  </ol>
+</nav>
+```
+
 ## `<section>`
 
 It demarcates a thematic grouping of content. Each section typically includes a heading element 
@@ -115,48 +159,31 @@ and associated content within `<div>` and `<p>`. E.g.: introduction, blog entrie
 </section>
 ```
 
-## `<article>`
+## `<summary>`
 
-A self-contained composition in a document that is independently distributable or reusable. 
-E.g. a forum post, a magazine article, blog entry.
-
-## `<aside>`
-
-Holds content related to the content surrounding it. E.g.: related reading links, glossaries.
-
-## `<address>`
-
-The `<address>` HTML element indicates that the enclosed HTML provides contact information for a person or people, or for an organization.
+The `<summary>` HTML element specifies a summary, caption, or legend for a `<details>` element's disclosure box. 
+Clicking the `<summary>` element toggles the state of the parent `<details>` element open and closed.
 
 ```html
-<address>
-  <a href="mailto:kenny@example.com">kenny@example.com</a><br />
-  <a href="tel:+54150001234">+5 (415) 000‑1234</a>
-</address>
+<details>
+  <summary>
+    I have keys but no doors. I have space but no room. You can enter but can’t
+    leave. What am I?
+  </summary>
+  A keyboard.
+</details>
 ```
 
-## `<mark>`
+## `<time>`
 
-The `<mark>` HTML element represents text which is marked or highlighted for reference or notation purposes due to the marked passage's relevance in the enclosing context.
+The `<time>` HTML element represents a specific period in time. 
+It may include the datetime attribute to translate dates into machine-readable format, allowing for better search engine results or custom features such as reminders.
 
 ```html
 <p>
-  Several species of <mark>salamander</mark> inhabit the temperate rainforest of
-  the Pacific Northwest.
+  The concert starts at <time datetime="20:00">20:00</time> and you'll be able
+  to enjoy the band for at least <time datetime="PT2H30M">2h 30m</time>.
 </p>
-```
-
-## `<figure>` and  `<figcaption>`
-
-Used in conjunction with the `<figcaption>` element to mark up diagrams, illustrations, photos, and code listings, etc.
-
-```html
-<figure>
-  <img
-    src="/shared-assets/images/examples/elephant.jpg"
-    alt="Elephant at sunset" />
-  <figcaption>An elephant at sunset</figcaption>
-</figure>
 ```
 
 ## `<q>`
