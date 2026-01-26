@@ -26,6 +26,8 @@ display: grid;
 - `grid-template:` (It's a shorthand property for defining grid columns, grid rows, and grid areas) 
   - `100px 1fr / 50px 1fr;` - here we place grid-template-rows / grid-template-columns values
   - `auto 1fr / auto 1fr auto;`
+- `grid-column-start: 1;`
+- `grid-column-end: 4;` - extend the item across multiple columns (start at the 1st vertical grid line and end at the 4th.)
 - `gap: 20px 10px;` - adds gap 20px from top and bottom, 10px from left and right
 - `justify-items: right;` - justify items along X
 - `align-items: center;` - align items along Y
