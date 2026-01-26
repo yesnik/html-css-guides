@@ -32,6 +32,7 @@ A Game: https://cssgridgarden.com/
 - `grid-column-end:`
   - `4;` - extend the item across multiple columns (start at the 1st vertical grid line and end at the 4th.)
   - `-2` - we can set it to -2 to specify the first grid line from the right.
+  - `span 2;` - we can define a grid item based on desired column width using the `span` keyword
 - `gap: 20px 10px;` - adds gap 20px from top and bottom, 10px from left and right
 - `justify-items: right;` - justify items along X
 - `align-items: center;` - align items along Y
