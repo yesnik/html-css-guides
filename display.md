@@ -13,6 +13,14 @@ display: grid;
 
 ## Display Grid
 
+- `grid-template-rows:`
+  - `40px 4em 40px;`
+  - `1fr 2fr 1fr;`
+- `grid-template-columns:`
+  - `60px 60px;`
+  - `1fr 60px;`
+  - `1fr 2fr;` 
+
 ### 3 columns
 
 ```html
