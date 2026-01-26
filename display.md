@@ -41,7 +41,10 @@ A Game: https://cssgridgarden.com/
 - `grid-row-start: 3;` - it works along the vertical axis
 - `grid-row-end: -1;`
 - `grid-row:` - a shorthand property for `grid-row-start` / `grid-row-end`
-  - `3 / span 3` 
+  - `3 / span 3`
+- `grid-area:` - a shorthand that accepts 4 values separated by slashes: `grid-row-start`, `grid-column-start`, `grid-row-end`, `grid-column-end`.
+  - `1 / 1 / 3 / 6;`
+  - `1 / 2 / span 3 / span 4;`  
 - `gap: 20px 10px;` - adds gap 20px from top and bottom, 10px from left and right
 - `justify-items: right;` - justify items along X
 - `align-items: center;` - align items along Y
