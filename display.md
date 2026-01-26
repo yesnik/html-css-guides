@@ -17,7 +17,7 @@ display: grid;
   - `40px 4em 40px;`
   - `1fr 2fr 1fr;`
 - `grid-template-columns:`
-  - `60px 60px;`
+  - `60px 200px 60px;` - we have 3 columns
   - `1fr 60px;`
   - `1fr 2fr;` 
 - `grid-template:` (It's a shorthand property for defining grid columns, grid rows, and grid areas) 
