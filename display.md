@@ -27,6 +27,8 @@ display: grid;
   - `100px 1fr / 50px 1fr;` - here we place grid-template-rows / grid-template-columns values
   - `auto 1fr / auto 1fr auto;`
 - `gap: 20px 10px;` - adds gap 20px from top and bottom, 10px from left and right
+- `justify-items: right;` - justify items along X
+- `align-items: center;` - align items along Y
 
 ### 3 columns
 
