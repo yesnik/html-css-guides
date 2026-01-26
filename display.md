@@ -20,6 +20,9 @@ display: grid;
   - `60px 60px;`
   - `1fr 60px;`
   - `1fr 2fr;` 
+- `grid-template:` (It's a shorthand property for defining grid columns, grid rows, and grid areas) 
+  - `100px 1fr / 50px 1fr;` - here we place grid-template-rows / grid-template-columns values
+  - `auto 1fr / auto 1fr auto;`
 
 ### 3 columns
 
