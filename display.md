@@ -28,7 +28,9 @@ A Game: https://cssgridgarden.com/
 - `grid-template:` (It's a shorthand property for defining grid columns, grid rows, and grid areas) 
   - `100px 1fr / 50px 1fr;` - here we place grid-template-rows / grid-template-columns values
   - `auto 1fr / auto 1fr auto;`
-- `grid-column-start: 1;`
+- `grid-column-start:`
+  - `1;`
+  - `span 3;` - we can use the `span` keyword to set item's width relative to the end position.
 - `grid-column-end:`
   - `4;` - extend the item across multiple columns (start at the 1st vertical grid line and end at the 4th.)
   - `-2` - we can set it to -2 to specify the first grid line from the right.
