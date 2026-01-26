@@ -38,8 +38,8 @@ A Game: https://cssgridgarden.com/
 - `grid-column:` - a shorthand property for `grid-column-start` / `grid-column-end`
   -  `4 / 6;` - will set the grid item to start on the 4th vertical grid line and end on the 6th grid line.
   -  `2 / span 3;`
-- `grid-row-start:` - it works along the vertical axis
-  - `3;`
+- `grid-row-start: 3;` - it works along the vertical axis
+- `grid-row-end: -1;`
 - `grid-row:` - a shorthand property for `grid-row-start` / `grid-row-end`
   - `3 / span 3` 
 - `gap: 20px 10px;` - adds gap 20px from top and bottom, 10px from left and right
