@@ -26,6 +26,7 @@ display: grid;
 - `grid-template:` (It's a shorthand property for defining grid columns, grid rows, and grid areas) 
   - `100px 1fr / 50px 1fr;` - here we place grid-template-rows / grid-template-columns values
   - `auto 1fr / auto 1fr auto;`
+- `gap: 20px 10px;` - adds gap 20px from top and bottom, 10px from left and right
 
 ### 3 columns
 
