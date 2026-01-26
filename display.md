@@ -25,7 +25,7 @@ A Game: https://cssgridgarden.com/
   - `max-content max-content;` - two columns that will have max content width
   - `1fr 60px;`
   - `1fr 2fr;` 
-- `grid-template:` (It's a shorthand property for defining grid columns, grid rows, and grid areas) 
+- `grid-template:` - a shorthand property for defining grid columns, grid rows, and grid areas
   - `100px 1fr / 50px 1fr;` - here we place grid-template-rows / grid-template-columns values
   - `auto 1fr / auto 1fr auto;`
 - `grid-column-start:`
@@ -38,6 +38,10 @@ A Game: https://cssgridgarden.com/
 - `grid-column:` - a shorthand property for `grid-column-start` / `grid-column-end`
   -  `4 / 6;` - will set the grid item to start on the 4th vertical grid line and end on the 6th grid line.
   -  `2 / span 3;`
+- `grid-row-start:` - it works along the vertical axis
+  - `3;`
+- `grid-row:` - a shorthand property for `grid-row-start` / `grid-row-end`
+  - `3 / span 3` 
 - `gap: 20px 10px;` - adds gap 20px from top and bottom, 10px from left and right
 - `justify-items: right;` - justify items along X
 - `align-items: center;` - align items along Y
