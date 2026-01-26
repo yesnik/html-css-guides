@@ -18,6 +18,7 @@ display: grid;
   - `1fr 2fr 1fr;`
 - `grid-template-columns:`
   - `60px 200px 60px;` - we have 3 columns
+  - `1fr 50px 50px;` - two right columns have fixed width, first column occupies free space
   - `1fr 60px;`
   - `1fr 2fr;` 
 - `grid-template:` (It's a shorthand property for defining grid columns, grid rows, and grid areas) 
