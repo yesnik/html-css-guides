@@ -130,3 +130,35 @@ A game: https://cssgridgarden.com/
   grid-column: 2 / 4;
 }
 ```
+
+### Left sidebar
+
+```html
+<div class="box">
+  <div class="sidebar">
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Products</a></li>
+      <li><a href="#">Contacts</a></li>
+    </ul>
+  </div>
+  <div class="content">
+    Some content...
+  </div>
+</div>
+```
+```css
+html, body {
+  height: 100%;
+}
+.box {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 200px 1fr;
+  grid-template-rows: 100%;
+  height: 100%;
+}
+.sidebar {
+  background-color: #eee;
+}
+```
