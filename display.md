@@ -25,7 +25,7 @@ A game: https://flexboxfroggy.com/
 ```css
 .box {
   display: flex;
-  justify-content: center; /* space-between */
+  justify-content: center; /* space-between, space-around */
   align-items: center;
 }
 .item {
