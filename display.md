@@ -11,9 +11,33 @@ display: flex;
 display: grid;
 ```
 
+## Display Flex
+
+A game: https://flexboxfroggy.com/
+
+```html
+<div class="box">
+  <div class="item">One</div>
+  <div class="item main">Two</div>
+  <div class="item">Three:<br />#3</div>
+</div>
+```
+```css
+.box {
+  display: flex;
+}
+.item {
+  border: 1px solid red;
+  justify-content: center;
+}
+.main {
+  flex-grow: 1;
+}
+```
+
 ## Display Grid
 
-A Game: https://cssgridgarden.com/
+A game: https://cssgridgarden.com/
 
 - `grid-template-rows:`
   - `40px 4em 40px;`
