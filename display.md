@@ -25,10 +25,11 @@ A game: https://flexboxfroggy.com/
 ```css
 .box {
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .item {
   border: 1px solid red;
-  justify-content: center;
 }
 .main {
   flex-grow: 1;
