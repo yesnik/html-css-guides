@@ -32,3 +32,24 @@ The `text-decoration` shorthand CSS property sets the appearance of decorative l
 - `underline dotted red`
 - `underline wavy blue`
 - `underline overline wavy blue`
+
+## transition
+
+Change background color gradually on hover on and off:
+
+```html
+<button class="banner-btn">Hello</button>
+```
+```css
+.banner-btn {
+  text-decoration: none;
+  background-color: var(--light);
+  border: none;
+  border-radius: 5px;
+
+  transition: .2s;
+}
+.banner-btn:hover {
+  background-color: var(--dark);
+}
+```
