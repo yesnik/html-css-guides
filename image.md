@@ -26,3 +26,19 @@
   object-fit: cover; /* Allows to save image's proportions */
 }
 ```
+
+## Image in a CSS
+
+```html
+<a href="#" class="footer-logo">&nbsp;</a>
+```
+```css
+.footer-logo {
+  display: block;
+  width: 63px;
+  height: 56px;
+  background-image: url(../images/logo-light.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+```
