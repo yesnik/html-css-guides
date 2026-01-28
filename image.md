@@ -5,8 +5,8 @@
 ```html
 <div class="product-thumb">
   <img src="images/car.jpg" alt="">
-  <h3 class="product-name">BMW</h3>
 </div>
+<h3 class="product-name">BMW</h3>
 ```
 ```css
 .product-thumb {
