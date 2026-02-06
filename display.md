@@ -36,6 +36,29 @@ A game: https://flexboxfroggy.com/
 }
 ```
 
+### Two columns, left column has fixed width
+
+```html
+<div class="contact-main">
+  <div class="contact-map">
+      Some map
+  </div>
+  <ul class="contact-adresses">
+    <li>Some office in NY, telephone 123123123</li>
+    <li>Great ofice in LA</li>
+  </ul>
+</div>
+```
+```css
+.contact-main {
+    display: flex;
+}
+.contact-map {
+    background: #ccc;
+    flex-basis: 500px;
+}
+```
+
 ## Display Grid
 
 A game: https://cssgridgarden.com/
